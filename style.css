@@ -44,7 +44,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+
 }
 
 .conteudo-med {
@@ -54,6 +54,26 @@ header {
   width: 400px;
 }
 
+form {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.seletores {
+background-color: #ffffff;
+border-radius: 20px;
+padding: 20px;
+
+}
+
+#enviar {
+    background-color: #0360d9;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+}
+
 #med {
-  max-width: 100%;
+  max-width: 80%;
 }
