@@ -1,61 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
- background: #E1EEFF;
- align-items: center;
- padding: 40px;
+  background: #e1eeff;
+  align-items: center;
+  padding: 40px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
 }
 
 .button1 {
-    background-color: #E1EEFF;
-    color: #0360D9;
-    padding: 10px;
-    border-radius: 20px;
+  background-color: #e1eeff;
+  color: #0360d9;
+  padding: 12px 24px;
+  border-radius: 20px;
 }
 
 .button2 {
-    color: #FFFFFF;
-    background-color: #0360D9;
-    border-radius: 20px;
-    padding: 10px;
+  color: #ffffff;
+  background-color: #0360d9;
+  padding: 12px 24px;
+  border-radius: 20px;
 }
 
 .container-med {
-    background-color: #E1EEFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  background-color: #e1eeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .conteudo-med {
-    padding: 40px;
-    margin: auto;
-    font-family: IBM Plex Sans;
-    width: 400px;
+  padding: 40px;
+  margin: auto;
+  font-family: IBM Plex Sans;
+  width: 400px;
 }
 
 #med {
-
-max-width: 100%;
-
+  max-width: 100%;
 }
