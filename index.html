@@ -12,7 +12,7 @@
   <body>
     <header>
       <div class="container">
-        <h1>E-sheba</h1>
+        <h1>E-<span class="azul-text">sheba</span></h1>
         <nav class="navbar">
           <div class="menu">
             <ul class="links">
@@ -31,10 +31,11 @@
     </header>
 
     <main>
-      <div class="container-med">
+      <section class="fundo-med">
+        <div class="container-med container">
         <div class="conteudo-med">
-          <h1>Find & Search Your Favourite Doctor</h1>
-          <p>
+          <h1>Find & Search Your <span class="azul-text">Favourite</span> Doctor</h1>
+          <p class="paragrafo">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
             viverra amet faucibus.
           </p>
@@ -46,18 +47,28 @@
             <option value=""></option>
           </select>
 
-          <label for="Location"><img src="/assets/location-icon.png" alt=""> Location</label>
-          <select name="Location" id="Location"></select>
+          <div>
+
+            <img src="/assets/location-icon.png" alt="">
+          <select name="Location" id="Location">
+            <option value="Location" selected hidden>Location</option>
+            <option value="a">Jhon Doe</option>
+          </select>
+          </div>
           <button id="enviar" type="submit"><img src="/assets/search-icon.png" alt=""></button>
           </div>
           </form>
         </div>
-
+            <div class="div-med">
           <img id="med" src="/assets/doctor.png" alt="foto do doutor" />
-    
-        
+            </div>
+      </div>
+      </section>
+      <div class="dados">
+        <h2>24/7</h2>
+        <h2>100+</h2>
+        <h2>1M+</h2>
 
-        
       </div>
     </main>
   </body>
