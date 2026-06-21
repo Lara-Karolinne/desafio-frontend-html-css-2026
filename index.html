@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>E-<span class="azul-text">sheba</span></h1>
+        <h1>E-<span class="azul">sheba</span></h1>
         <nav class="navbar">
           <div class="menu">
             <ul class="links">
@@ -24,8 +27,8 @@
           </div>
         </nav>
         <div class="logins">
-        <button class="button1" type="button">Log in</button>
-        <button class="button2" type="button">Sign in</button>
+          <button class="button-log" type="button">Log in</button>
+          <button class="button-sign" type="button">Sign in</button>
         </div>
       </div>
     </header>
@@ -33,42 +36,64 @@
     <main>
       <section class="fundo-med">
         <div class="container-med container">
-        <div class="conteudo-med">
-          <h1>Find & Search Your <span class="azul-text">Favourite</span> Doctor</h1>
-          <p class="paragrafo">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
-            viverra amet faucibus.
-          </p>
-          <form action="">
-            <div class="seletores">
-            
-          <label for="doutor"><img src="/assets/profile-icon.png" alt=""> Doctor’s Name</label>
-          <select name="doutor" id="doutor">
-            <option value=""></option>
-          </select>
+          <div class="conteudo-med">
+            <h1>
+              Find & Search Your 
+              <span class="azul-text">Favourite</span> Doctor
+            </h1>
+            <p class="paragrafo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+              viverra amet faucibus.
+            </p>
 
-          <div>
+            <form action="">
+              <div class="seletores">
+                <div class="campo">
+                  <img src="/assets/profile-icon.png" alt="Perfil" />
+                  <select name="doutor" id="doutor">
+                    <option value="Doctor’s Name" selected hidden>
+                      Doctor’s Name
+                    </option>
+                    <option value="a">Jhon Doe</option>
+                  </select>
+                </div>
 
-            <img src="/assets/location-icon.png" alt="">
-          <select name="Location" id="Location">
-            <option value="Location" selected hidden>Location</option>
-            <option value="a">Jhon Doe</option>
-          </select>
+                <div class="campo">
+                  <img src="/assets/location-icon.png" alt="Localização" />
+                  <select name="Location" id="Location">
+                    <option value="Location" selected hidden>Location</option>
+                    <option value="a">Paçoca ocidental</option>
+                  </select>
+                </div>
+
+                <button id="enviar" type="submit">
+                  <img src="/assets/search-icon.png" alt="Buscar" />
+                </button>
+              </div>
+            </form>
           </div>
-          <button id="enviar" type="submit"><img src="/assets/search-icon.png" alt=""></button>
+
+          <div class="div-med">
+            <img id="med" src="/assets/doctor.png" alt="foto do doutor" />
           </div>
-          </form>
         </div>
-            <div class="div-med">
-          <img id="med" src="/assets/doctor.png" alt="foto do doutor" />
-            </div>
-      </div>
       </section>
-      <div class="dados">
-        <h2>24/7</h2>
-        <h2>100+</h2>
-        <h2>1M+</h2>
 
+      <div class="dados">
+        <div class="suporte">
+          <h2>24/7</h2>
+          <p>Online Support</p>
+        </div>
+
+        <div class="suporte">
+          <h2>100+</h2>
+          <p>Doctors</p>
+        </div>
+
+        <div class="suporte">
+          <h2>1M+</h2>
+          <p>Active Patients</p>
+        </div>
       </div>
     </main>
   </body>
