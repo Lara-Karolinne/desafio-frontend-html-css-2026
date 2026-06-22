@@ -371,31 +371,54 @@ form {
 .caixa-azul {
   background-color: var(--azul-principal);
   border-radius: 20px;
-  padding: 50px;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: var(--branco);
+  width: 100%;
   margin-bottom: 80px;
+}
+
+.caixa-azul h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .form-email {
   display: flex;
+  align-items: center;
   background-color: var(--branco);
-  padding: 10px;
+  padding: 8px 8px 8px 30px;
   border-radius: 50px;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
 }
 
 .form-email input {
   flex: 1;
-  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  color: var(--texto-escuro);
 }
 
 .form-email button {
   background-color: var(--azul-principal);
-  color: var(--branco);
-  padding: 10px 20px;
-  border-radius: 50px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form-email button img {
+  width: 20px;
 }
 
 .rodape {
