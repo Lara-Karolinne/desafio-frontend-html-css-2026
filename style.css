@@ -22,7 +22,7 @@ button, input, select, textarea {
 }
 
 header {
-  background: #e1eeff;
+  background: var(--azul-claro);
   align-items: center;
   padding: 40px 0;
 }
@@ -32,15 +32,15 @@ header {
 }
 
 .azul {
-  color: #0360d9;
+  color: var(--azul-principal);
 }
 
 h1 {
   white-space: pre-line;
 }
 
-.azul-text {
-  color: #0360d9;
+.azul {
+  color: var(--azul-principal);
 }
 
 .container {
@@ -67,29 +67,30 @@ h1 {
 }
 .links a.ativo,
 .links a:hover {
-  color: #0360D9;
+  color: var(--azul-principal);
   font-weight: bold; 
-  border-bottom: 2px solid #0360D9; 
+  border-bottom: 2px solid var(--azul-principal); 
 }
 
+
 .button-log {
-  border-color: #0360d9;
-  background-color: #e1eeff;
-  color: #0360d9;
+  border-color: var(--azul-principal);
+  background-color: var(--azul-claro);
+  color: var(--azul-principal);
   padding: 12px 24px;
   border-radius: 20px;
 }
 
 .button-sign {
   color: #ffffff;
-  background-color: #0360d9;
+  background-color: var(--azul-principal);
   padding: 12px 24px;
   border-radius: 20px;
-  border: #0360d9;
+  border: var(--azul-principal);
 }
 
 .fundo-med {
-  background-color: #e1eeff;
+  background-color: var(--azul-claro);
 }
 
 .container-med {
@@ -169,8 +170,8 @@ form {
   height: 400px;
 }
 .dados {
-  background-color: #0360d9;
-  color: #ffffff;
+  background-color: var(--azul-principal);
+  color: var(--branco);
   font-family: "IBM Plex Sans", sans-serif;
 
   display: flex;
