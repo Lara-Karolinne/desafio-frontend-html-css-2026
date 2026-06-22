@@ -1,15 +1,24 @@
-body {
-  font-family: 'IBM Plex Sans', sans-serif;
-}
-
-button, input, select, textarea {
-  font-family: inherit;
+:root {
+  --azul-claro: #e1eeff;
+  --azul-principal: #0360d9;
+  --branco: #ffffff;
+  --texto-escuro: #021526;
+  --fundo-icone: #e6f5fc;
+  --borda: #d7e4f2;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
 }
 
 header {
@@ -195,14 +204,6 @@ form {
 .suporte p {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.9);
-}
-:root {
-  --azul-claro: #e1eeff;
-  --azul-principal: #0360d9;
-  --branco: #ffffff;
-  --texto-escuro: #021526;
-  --fundo-icone: #e6f5fc;
-  --borda: #d7e4f2;
 }
 
 .container-bloco {
